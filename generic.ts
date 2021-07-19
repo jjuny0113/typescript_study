@@ -91,4 +91,4 @@ const noArgFunc:numFunc<void> = () => (c:number) => c +5;
 
 const numArgFunc:numFunc<number> = (someValue:number) => (multiplier:number)=> someValue * multiplier
 const stringArgFunc:numFunc<string> = (someText:string) => (padding:number) => someText.length + padding;
-// const createSumString:numFunc<number> = () => (x:number) => 'Hello' 오류발생!
+// const createSumString:numFunc<number> = () => (x:number) => 'Hello' 오류발생!    
